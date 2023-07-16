@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15 Puzzle Game</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>15 Puzzle Game</h1>
+    <div class="game-container">
+      <div id="game-board" class="game-board"></div>
+      <div class="game-options">
+        <button id="new-game-button">New Game</button>
+        <button id="shuffle-button">Shuffle</button>
+        <div id="timer">Timer: 00:00</div>
+        <div id="moves">Moves: 0</div>
+        <div id="leaderboard"></div>
+      </div>
+    </div>
+    <div class="size-options">
+      <label for="size-select">Size:</label>
+      <select id="size-select">
+        <option value="3">3x3</option>
+        <option value="4" selected>4x4</option>
+        <option value="5">5x5</option>
+      </select>
+      <button id="shuffle-button-bottom">Shuffle</button> 
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
